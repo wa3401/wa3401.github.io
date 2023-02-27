@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+.headshot-wrapper {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.headshot-wrapper img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.headshot-wrapper h1 {
+    font-size: 2em;
+    color: #008CBA;
+}
+
+.headshot-wrapper h2 {
+    font-size: 1.5em;
+    color: #008CBA;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+tr {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 5px;
+    padding: 20px;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button2 {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+}
+
+div#contact {
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+div#contact h1 {
+    font-size: 2em;
+    color: #008CBA;
+}
+
+div#contact form {
+    margin: 50px auto;
+    text-align: center;
+    width: 50%;
+}
+
+/* The navbar container */
+div#topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+/* Navbar links */
+div#topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Links - change color on hover */
+div#topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+
+
