@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--#include virtual="navbar.html"-->
+<html lang="en">
+    <head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="scripts/feedbackForm.js"></script>
+		<title>Will Anderson | Education</title>
+	</head>
+
+    <body>
+        <div class="center">
+            <h1>Feedack</h1>
+            <form onsubmit="feedbackFormValidate()" id="feedbackForm">
+                <label for="feedback">Provide some feedback</label>
+                <textarea type="textarea" id="feedback" name="feedback"></textarea>
+
+                <label for="rating">Rate my website</label>
+                <input type="radio" id="rating" name="rating" value="1" /> 1
+                <input type="radio" id="rating" name="rating" value="2" /> 2
+                <input type="radio" id="rating" name="rating" value="3" /> 3
+                <input type="radio" id="rating" name="rating" value="4" /> 4
+                <input type="radio" id="rating" name="rating" value="5" /> 5
+
+                <label for="email" >Email</label>
+                <input type="email" id="email" name="email" />
+
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+
+</html>
