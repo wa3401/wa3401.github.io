@@ -10,20 +10,21 @@
 </head>
 <body>
     <header>
-        <div class="headshot-wrapper">
+    <div class="headshot-wrapper">
 			<img class="headshot" src="images/will.jpeg" alt="Will Anderson" />
 			<h1>Will Anderson</h1>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/will-anderson10/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/wa3401" class="fa fa-github" target="_blank"></a>
+                <a href="https://soundcloud.com/will-anderson-sndcld" class="fa fa-soundcloud" target="_blank"></a>
+                <a href="https://www.instagram.com/willandersonjamz/" class="fa fa-instagram" target="_blank"></a>
+            </div>
 			<h2>Software Engineer</h2>
 		</div>
       <nav class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
         </ul>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/will-anderson10/" class="fa fa-linkedin" target="_blank"></a>
-            <a href="https://www.instagram.com/willandersonjamz/" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://github.com/wa3401" class="fa fa-github" target="_blank"></a>
-        </div>
       </nav>
     </header>
     <main>
@@ -102,5 +103,8 @@
 		?>
 	</table>
     </div>
+    <footer>
+        <p>&copy; 2023 William Anderson</p>
+      </footer>
 </body>
 </html>

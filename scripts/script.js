@@ -16,7 +16,7 @@ navbarLinks.forEach(link => {
     // Scroll to section with smooth animation
     window.scrollTo({
       behavior: 'smooth',
-      top: section.offsetTop - 50
+      top: section.offsetTop - 100,
     });
   });
 });

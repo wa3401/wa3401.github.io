@@ -7,10 +7,10 @@
 /* Color styles */
 :root {
   --primary-color: #001b2e;
-  --secondary-color: #294c60;
+  --secondary-color: #cfd8dc;
   --tertiary-color: #777f8c;
-  --accent-color-1: #ffefd3;
-  --accent-color-2: #ffc49b;
+  --accent-color-1: #54b4c4;
+  --accent-color-2: #294c60;
 }
 
 /* Body styles */
@@ -18,22 +18,21 @@ body {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
-  color: #000;
-  background-color: #E5EAFA;
+  color: #cfd8dc;
+  background-color: #2c3e50;
   margin: 0;
   padding: 0;
 }
 
 /* Header styles */
 header {
-  background: linear-gradient(to bottom, #001b2e, #E5EAFA);
+  background: linear-gradient(to bottom, #001b2e, #2c3e50);
   padding: 20px;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -41,11 +40,10 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333;
+  background-color: #adb6c4;
   color: #fff;
   padding: 10px;
   z-index: 1;
-
 }
 
 ul {
@@ -59,6 +57,7 @@ ul {
 
 li {
   margin: 0 10px;
+  font-size: 24px;
 }
 
 a {
@@ -72,12 +71,13 @@ a:hover {
 }
 
 .social-icons {
-  display: flex;
-  align-items: center;
+  margin: auto;
+  font-size: 3em;
 }
 
 .social-icons a {
   margin-left: 20px;
+  margin-right: 20px;
   color: var(--tertiary-color);
 }
 
@@ -85,8 +85,8 @@ a:hover {
   color: #007bff;
 }
 
-.fa-2x {
-  font-size: 2em;
+.fa {
+  font-size: 5em;
 }
 
 @media screen and (max-width: 600px) {
@@ -124,7 +124,9 @@ form {
   
   input[type=text], textarea {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--tertiary-color);
+    color: #fff;
     border-radius: 3px;
     width: 100%;
     margin-bottom: 10px;
@@ -162,11 +164,11 @@ form {
   th, td {
     text-align: left;
     padding: 8px;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
   }
   
   th {
-    background-color: #f2f2f2;
+    background-color: var(--tertiary-color);
   }
 
   .container {
@@ -174,4 +176,19 @@ form {
     margin: 0 auto;
     padding: 0 20px;
   }
+
+  /* Footer styles */
+footer {
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #FFFFFF;
+}
   
